@@ -15,6 +15,14 @@ body {
     @apply bg-gradient-to-b from-[#002631] to-[#000201];
 }
 
+.prompt-section {
+    @apply flex flex-col p-4 gap-1 border-t border-t-gray-800;
+}
+
+.markdown h2 {
+    @apply font-bold pb-2;
+}
+
 .animate-blink {
     animation: blink 2s linear infinite;
 }
