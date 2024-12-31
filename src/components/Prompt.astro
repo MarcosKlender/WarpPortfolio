@@ -1,13 +1,18 @@
 ---
 import Header from "@/components/Header.astro";
+const { title } = Astro.props;
 ---
 
 <main class="flex flex-col justify-between h-full">
     <Header />
     <section class="flex flex-col p-4 gap-1 border-t-2 border-t-gray-800">
-        <h1 class="text-pink-400 font-bold text-lg">/home</h1>
-        <p class="text-gray-400">
-            Welcome to Warp Portfolio, by MarcosKlender.
+        <h1 class="text-pink-400 font-bold text-lg">{title}</h1>
+        <div class="text-white leading-relaxed">
+            <slot />
+        </div>
+        <p class="text-gray-600">
+            <span class="border-l-2 animate-blink"></span>
+            Try visiting other tabs instead of a command
         </p>
     </section>
 </main>
