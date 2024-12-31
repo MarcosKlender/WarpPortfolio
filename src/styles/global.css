@@ -14,3 +14,21 @@ body {
 .cyber-wave-theme {
     @apply bg-gradient-to-b from-[#002631] to-[#000201];
 }
+
+.animate-blink {
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}

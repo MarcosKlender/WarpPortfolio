@@ -1,8 +1,11 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import Prompt from "@/components/Prompt.astro";
+import * as indexContent from "@/content/index.md";
 ---
 
 <Layout>
-	<Prompt />
+	<Prompt title={indexContent.frontmatter.title}>
+		<indexContent.Content />
+	</Prompt>
 </Layout>
