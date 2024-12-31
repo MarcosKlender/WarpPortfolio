@@ -7,6 +7,10 @@ body {
     @apply h-screen;
 }
 
+.warp-tab {
+    @apply w-40 text-sm text-center py-2 hover:bg-teal-900 hover:bg-opacity-40
+}
+
 .cyber-wave-theme {
     @apply bg-gradient-to-b from-[#002631] to-[#000201];
 }

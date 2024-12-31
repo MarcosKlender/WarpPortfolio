@@ -1,18 +1,22 @@
 ---
 import Warp from "@/assets/Warp.astro";
+import Github from "@/assets/Github.astro";
+import Settings from "@/assets/Settings.astro";
 ---
 
-<nav class="flex justify-between px-4 py-2 text-white border-b border-b-gray-800">
-    <div class="flex items-center gap-10">
-        <Warp />
-        <a href="/">/marcosklender</a>
-        <a href="/experience">/experience</a>
-        <a href="/projects">/projects</a>
-        <a href="/contributions">/contributions</a>
-        <a href="/contact">/contact</a>
-    </div>
-    <div class="flex items-center gap-10">
-        <a href="/settings">Settings</a>
-        <a href="/close">Close</a>
+<nav class="flex justify-between text-white border-b border-b-gray-800">
+    <ul class="flex items-center">
+        <div class="px-4">
+            <Warp />
+        </div>
+        <a href="/" class="warp-tab">/marcosklender</a>
+        <a href="/experience" class="warp-tab">/experience</a>
+        <a href="/projects" class="warp-tab">/projects</a>
+        <a href="/contributions" class="warp-tab">/contributions</a>
+        <a href="/contact" class="warp-tab">/contact</a>
+    </ul>
+    <div class="flex items-center px-4 gap-4">
+        <Github />
+        <Settings />
     </div>
 </nav>
