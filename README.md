@@ -1,48 +1,97 @@
-# Astro Starter Kit: Basics
+<a id="readme-top"></a>
 
-```sh
-npm create astro@latest -- --template basics
-```
+<div align="center">
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+</div>
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+<h1 align="center">WarpPortfolio</h1>
 
-## 🚀 Project Structure
+<div align="center">
 
-Inside of your Astro project, you'll see the following folders and files:
+![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Open source web portfolio, inspired by [Warp Terminal](https://www.warp.dev/). Made with Astro 5.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+</div>
 
-## 🧞 Commands
+![AstroLinkHub Screenshot](https://i.ibb.co/wBkqbQ3/image.png)
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Table of Contents
 
-## 👀 Want to learn more?
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## About The Project
+
+Section in development! (: 
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** -> `v18.17.1` or `v20.3.0`, `v22.0.0` or higher. (`v19` and `v21` are not supported)
+- **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
+
+Personally I prefer using `pnpm` instead `npm` and to install it you can use:
+
+  ```sh
+  npm install -g pnpm
+  ```
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+### Installation
+
+1. Clone this repo to your computer:
+   ```sh
+   git clone git@github.com:MarcosKlender/WarpPortfolio.git
+   ```
+2. Install Astro dependencies:
+   ```sh
+   cd WarpPortfolio
+   pnpm install
+   ```
+3. Run the Astro dev server:
+   ```sh
+   pnpm dev
+   ```
+   
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "feature".
+**Don't forget to give the project a star!** ⭐
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+
+
+## License
+
+Distributed under the MIT License. `Open Source` is pretty self-descriptive.
+
+<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
