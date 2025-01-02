@@ -5,7 +5,7 @@ title: "~/home/contact"
 
 # cat CONTACT.md
 
-Feel free to contact me anytime and please, don't forget to give the project a star! (:
+Feel free to contact me anytime! (:
 
 Github:\
 [https://github.com/marcosklender](https://github.com/marcosklender)
