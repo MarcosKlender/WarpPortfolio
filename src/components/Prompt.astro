@@ -17,7 +17,7 @@ const executionTime = (Math.random() * (0.5 - 0.001) + 0.001).toFixed(3);
 <main class="flex flex-col justify-between h-full">
     <Header />
     <article>
-        <section class="transition-colors prompt-section animate-slide-in">
+        <section class="transition-colors prompt-section animate-slide-in border-t border-t-gray-800">
             <div class="flex gap-2 text-gray-400">
                 <p>{username}</p>
                 <span>{title} ({executionTime}s)</span>
@@ -27,7 +27,7 @@ const executionTime = (Math.random() * (0.5 - 0.001) + 0.001).toFixed(3);
             </div>
         </section>
 
-        <section class="prompt-section">
+        <section class="prompt-section border-t border-t-gray-800">
             <div class="flex gap-2 font-semibold">
                 <p class="warp-username">{username}</p>
                 <h2 class="warp-directory">{title}</h2>
