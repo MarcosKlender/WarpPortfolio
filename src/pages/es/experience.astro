@@ -1,0 +1,14 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Prompt from "@/components/Prompt.astro";
+import * as experienceContent from "@/content/es/experience.md";
+---
+
+<Layout>
+	<Prompt
+		username={experienceContent.frontmatter.username}
+		title={experienceContent.frontmatter.title}
+	>
+		<experienceContent.Content />
+	</Prompt>
+</Layout>

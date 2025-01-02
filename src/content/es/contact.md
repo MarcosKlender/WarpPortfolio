@@ -3,21 +3,21 @@ username: "marcosklender"
 title: "~/home/contact"
 ---
 
-# cat CONTACT.md
+# cat CONTACTO.md
 
-Feel free to contact me anytime! (:
+¡No dudes en contactarme en cualquier momento! (:
 
-Github:\
+Github:  
 [https://github.com/marcosklender](https://github.com/marcosklender)
 
-Linkedin:\
+Linkedin:  
 [https://linkedin.com/in/marcosklender](https://linkedin.com/in/marcosklender)
 
-Instagram:\
+Instagram:  
 [https://instagram.com/marcosklender](https://instagram.com/marcosklender)
 
-Whatsapp:\
+Whatsapp:  
 [https://wa.me/5930980199488](https://wa.me/5930980199488)
 
-Email:\
+Email:  
 [marcosklender@gmail.com](mailto:marcosklender@gmail.com)
