@@ -12,7 +12,11 @@ body {
 }
 
 .warp-tab {
-    @apply w-40 text-sm text-center py-2 hover:bg-teal-900 hover:bg-opacity-40
+    @apply w-40 py-2 text-sm text-center hover:bg-teal-900 hover:bg-opacity-40;
+}
+
+.warp-tab-active {
+    @apply w-40 py-2 text-sm text-center bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
 }
 
 .warp-username {
