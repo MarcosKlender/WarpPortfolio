@@ -1,0 +1,14 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Prompt from "@/components/Prompt.astro";
+import * as contactContent from "@/content/contact.md";
+---
+
+<Layout>
+	<Prompt
+		username={contactContent.frontmatter.username}
+		title={contactContent.frontmatter.title}
+	>
+		<contactContent.Content />
+	</Prompt>
+</Layout>
