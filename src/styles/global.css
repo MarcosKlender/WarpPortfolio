@@ -7,12 +7,12 @@ body {
     @apply h-screen;
 }
 
-.warp-tab {
-    @apply w-40 text-sm text-center py-2 hover:bg-teal-900 hover:bg-opacity-40
-}
-
 .cyber-wave-theme {
     @apply bg-gradient-to-b from-[#002532] to-[#000101];
+}
+
+.warp-tab {
+    @apply w-40 text-sm text-center py-2 hover:bg-teal-900 hover:bg-opacity-40
 }
 
 .warp-username {
@@ -23,12 +23,16 @@ body {
     @apply text-[#FF8FFD];
 }
 
+.selected-section {
+    @apply bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
+}
+
 .prompt-section {
-    @apply flex flex-col p-4 gap-1 border-t border-t-gray-800;
+    @apply flex flex-col gap-1 p-4 border-t border-t-gray-800;
 }
 
 .markdown h1 {
-    @apply font-bold pb-2;
+    @apply pb-2 font-bold;
 }
 
 .animate-blink {
