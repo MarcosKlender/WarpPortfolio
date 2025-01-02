@@ -1,0 +1,14 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Prompt from "@/components/Prompt.astro";
+import * as NotFoundContent from "@/content/404.md";
+---
+
+<Layout>
+    <Prompt
+        username={NotFoundContent.frontmatter.username}
+        title={NotFoundContent.frontmatter.title}
+    >
+        <NotFoundContent.Content />
+    </Prompt>
+</Layout>

@@ -3,7 +3,7 @@ username: "marcosklender"
 title: "~/home"
 ---
 
-# about me
+# cat ABOUTME.md
 
 Welcome to my Warp Portfolio! My name is **Klender Carrasco**.
 
