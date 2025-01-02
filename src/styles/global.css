@@ -40,8 +40,18 @@ main {
     @apply flex flex-col gap-1 p-4 border-t border-t-gray-800;
 }
 
-.markdown h1 {
-    @apply pb-2 font-bold;
+.markdown {
+    h1 {
+        @apply pb-2 font-bold;
+    }
+
+    p {
+        @apply py-2
+    }
+
+    a {
+        @apply text-[#B4FA72] hover:underline;
+    }
 }
 
 .animate-slide-in {

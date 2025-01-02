@@ -5,14 +5,11 @@ title: "~/home/contributions"
 
 # cat CONTRIBUTIONS.md
 
-**AprendiendoGit.com**
-
+[**AprendiendoGit.com**](https://aprendiendogit.com/)\
 A classless framework for a perfect dark mode!
 
-**JSConf.es**
-
+[**JSConf.es**](https://www.jsconf.es/)\
 Official website of JSConf Spain 2025
 
-**JavaScript100.dev**
-
+[**JavaScript100.dev**](https://www.javascript100.dev/)\
 100 JavaScript projects with code and videos, for free!
