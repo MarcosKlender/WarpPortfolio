@@ -4,7 +4,10 @@
 
 body {
     font-family: 'Onest Variable', sans-serif;
-    @apply h-screen;
+}
+
+main {
+    @apply min-h-screen
 }
 
 .cyber-wave-theme {
@@ -12,11 +15,13 @@ body {
 }
 
 .warp-tab {
-    @apply w-40 py-2 text-sm text-center hover:bg-teal-900 hover:bg-opacity-40;
+    @apply w-40 py-2 text-sm text-center hover:bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
 }
 
-.warp-tab-active {
-    @apply w-40 py-2 text-sm text-center bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
+.active {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #027972, #3C3E80, #7A028F);
+    border-image-slice: 1;
 }
 
 .warp-username {

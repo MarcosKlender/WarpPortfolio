@@ -7,28 +7,29 @@ const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.slice(1);
 ---
 
-<nav class="flex justify-between text-white border-b border-b-gray-800">
+<nav class="flex justify-between text-white border-b border-b-gray-800 overflow-auto">
     <ul class="flex items-center">
         <div class="px-4">
             <Warp />
         </div>
-        <a href="/" class={currentPath === "" ? "warp-tab-active" : "warp-tab"}>
+        <a href="/" class={currentPath === "" ? "warp-tab active" : "warp-tab"}>
             /home
         </a>
-        <a href="/experience" class={currentPath === "experience" ? "warp-tab-active" : "warp-tab"}>
+        <a href="/experience" class={currentPath === "experience" ? "warp-tab active" : "warp-tab"}>
             /experience
         </a>
-        <a href="/projects" class={currentPath === "projects" ? "warp-tab-active" : "warp-tab"}>
+        <a href="/projects" class={currentPath === "projects" ? "warp-tab active" : "warp-tab"}>
             /projects
         </a>
-        <a href="/contributions" class={currentPath === "contributions" ? "warp-tab-active" : "warp-tab"}>
+        <a href="/contributions" class={currentPath === "contributions" ? "warp-tab active" : "warp-tab"}>
             /contributions
         </a>
-        <a href="/contact" class={currentPath === "contact" ? "warp-tab-active" : "warp-tab"}>
+        <a href="/contact" class={currentPath === "contact" ? "warp-tab active" : "warp-tab"}>
             /contact
         </a>
     </ul>
     <div class="flex items-center gap-4 px-4">
+        <span class="text-sm">EN</span>
         <a href="https://github.com/MarcosKlender/WarpPortfolio" target="_blank" aria-label="Github Repository">
             <Github />
         </a>
