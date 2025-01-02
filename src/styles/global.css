@@ -12,14 +12,22 @@ body {
 }
 
 .cyber-wave-theme {
-    @apply bg-gradient-to-b from-[#002631] to-[#000201];
+    @apply bg-gradient-to-b from-[#002532] to-[#000101];
+}
+
+.warp-username {
+    @apply text-[#B4FA72];
+}
+
+.warp-directory {
+    @apply text-[#FF8FFD];
 }
 
 .prompt-section {
     @apply flex flex-col p-4 gap-1 border-t border-t-gray-800;
 }
 
-.markdown h2 {
+.markdown h1 {
     @apply font-bold pb-2;
 }
 

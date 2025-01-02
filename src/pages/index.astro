@@ -5,7 +5,10 @@ import * as indexContent from "@/content/index.md";
 ---
 
 <Layout>
-	<Prompt title={indexContent.frontmatter.title}>
+	<Prompt
+		username={indexContent.frontmatter.username}
+		title={indexContent.frontmatter.title}
+	>
 		<indexContent.Content />
 	</Prompt>
 </Layout>
