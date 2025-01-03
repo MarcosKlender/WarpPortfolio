@@ -19,7 +19,7 @@ Open source web portfolio, inspired by [Warp Terminal](https://www.warp.dev/). M
 
 </div>
 
-![AstroLinkHub Screenshot](https://i.ibb.co/wBkqbQ3/image.png)
+![WarpPortfolio Screenshot](https://i.ibb.co/H2N58ZV/Warp-Screenshot.webp)
 
 
 ## Table of Contents
@@ -42,7 +42,11 @@ Open source web portfolio, inspired by [Warp Terminal](https://www.warp.dev/). M
 
 ## About The Project
 
-Section in development! (: 
+WarpPortfolio is a web portfolio inspired by Warp Terminal. Built with Astro and Tailwind CSS, this project aims to provide a sleek and modern portfolio template.
+
+It also supports internationalization (i18n), making it accessible to a global audience! 🌎
+
+Whether you're a developer looking to showcase your projects or a designer wanting a clean and modern portfolio, WarpPortfolio offers a solid foundation to build upon.
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
