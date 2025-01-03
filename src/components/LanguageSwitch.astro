@@ -1,0 +1,21 @@
+---
+import { languages } from "../i18n/ui";
+import { getLangFromUrl, useTranslatedPath } from "../i18n/utils";
+
+const currentLang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(currentLang);
+
+function toggleLanguage(currentLang: string) {
+    return currentLang === "en" ? "es" : "en";
+}
+
+const currentPath = Astro.url.pathname.replace(`/${currentLang}`, "");
+const nextLang = toggleLanguage(currentLang);
+---
+
+<a
+    href={translatePath(currentPath, nextLang)}
+    class="text-sm font-semibold hover:scale-110"
+>
+    {languages[currentLang]}
+</a>

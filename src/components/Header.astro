@@ -1,18 +1,22 @@
 ---
-import { getRelativeLocaleUrl } from "astro:i18n";
+import { getLangFromUrl, useTranslations, useTranslatedPath } from "../i18n/utils";
 
 import Warp from "@/assets/Warp.astro";
 import Github from "@/assets/Github.astro";
 import Settings from "@/assets/Settings.astro";
+import LanguageSwitch from "@/components/LanguageSwitch.astro";
 
 const pathname = new URL(Astro.request.url).pathname;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
 
 const routes = [
-    { path: "/", label: "/home" },
-    { path: "/experience/", label: "/experience" },
-    { path: "/projects/", label: "/projects" },
-    { path: "/contributions/", label: "/contributions" },
-    { path: "/contact/", label: "/contact" },
+    { path: translatePath("/"), label: t("nav.home") },
+    { path: translatePath("/experience/"), label: t("nav.experience") },
+    { path: translatePath("/projects/"), label: t("nav.projects") },
+    { path: translatePath("/contributions/"), label: t("nav.contributions") },
+    { path: translatePath("/contact/"), label: t("nav.contact") },
 ];
 
 const isActive = (routePath: string) => {
@@ -37,12 +41,7 @@ const isActive = (routePath: string) => {
         }
     </ul>
     <div class="flex items-center gap-4 px-4">
-        <a
-            href={getRelativeLocaleUrl("es")}
-            class="text-sm font-semibold hover:scale-110"
-        >
-            EN
-        </a>
+        <LanguageSwitch />
         <a
             href="https://github.com/MarcosKlender/WarpPortfolio"
             target="_blank"
