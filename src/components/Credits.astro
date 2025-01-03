@@ -1,0 +1,51 @@
+---
+import Warp from "@/assets/Warp.astro";
+---
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const warpLogo = document.getElementById("warp-logo");
+        const modal = document.getElementById("credits-modal");
+        const closeModal = document.getElementById("close-modal");
+
+        if (warpLogo && modal && closeModal) {
+            warpLogo.addEventListener("click", () => {
+                modal.classList.remove("hidden");
+                modal.classList.add("flex");
+                modal.setAttribute("aria-hidden", "false");
+            });
+
+            closeModal.addEventListener("click", () => {
+                modal.classList.add("hidden");
+                modal.classList.remove("flex");
+                modal.setAttribute("aria-hidden", "true");
+            });
+        }
+    });
+</script>
+
+<div>
+    <div id="warp-logo" class="cursor-pointer hover:scale-110">
+        <Warp />
+    </div>
+
+    <div
+        id="credits-modal"
+        class="fixed inset-0 z-50 items-center justify-center hidden bg-black bg-opacity-75"
+        aria-hidden="true"
+        role="dialog"
+    >
+        <div
+            class="flex flex-col items-center p-6 text-white bg-gray-800 rounded-lg shadow-lg w-80"
+        >
+            <h2>Made by MarcosKlender 🇪🇨</h2>
+            <p class="text-sm">Thanks for being here! (:</p>
+            <button
+                id="close-modal"
+                class="mt-4 py-2 w-full text-sm bg-gradient-to-r from-[#027972]/50 via-[#3C3E80]/50 to-[#7A028F]/50 rounded hover:scale-105"
+            >
+                You're welcome!
+            </button>
+        </div>
+    </div>
+</div>

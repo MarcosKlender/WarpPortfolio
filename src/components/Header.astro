@@ -1,10 +1,10 @@
 ---
 import { getLangFromUrl, useTranslations, useTranslatedPath } from "../i18n/utils";
 
-import Warp from "@/assets/Warp.astro";
 import Github from "@/assets/Github.astro";
 import Settings from "@/assets/Settings.astro";
 import LanguageSwitch from "@/components/LanguageSwitch.astro";
+import Credits from "@/components/Credits.astro";
 
 const pathname = new URL(Astro.request.url).pathname;
 const lang = getLangFromUrl(Astro.url);
@@ -24,10 +24,10 @@ const isActive = (routePath: string) => {
 };
 ---
 
-<nav class="flex justify-between text-white border-b border-b-gray-800 overflow-auto">
+<nav class="flex justify-between overflow-auto text-white border-b border-b-gray-800">
     <ul class="flex items-center">
         <div class="px-4">
-            <Warp />
+            <Credits />
         </div>
         {
             routes.map(({ path, label }) => (
