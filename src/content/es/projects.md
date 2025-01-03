@@ -17,8 +17,8 @@ Aplicación Laravel para gestionar el registro de miembros para las Elecciones d
 [**Larapark**](https://github.com/MarcosKlender/Larapark)\
 Gestiona tu estacionamiento de la manera más eficiente, totalmente gratis.
 
-[**AstroLinkHub**](https://astrolinkhub.netlify.app/)\  
+[**AstroLinkHub**](https://astrolinkhub.netlify.app/)\
 Página de enlaces de código abierto, personalizable a través de JSON.
 
-[**JSONLinks**](https://jsonlinks.netlify.app/)\  
-Un repositorio donde encontrarás páginas de enlaces fáciles de implementar que se adaptan a tus necesidades.
+[**JSONLinks**](https://jsonlinks.netlify.app/)\
+Un repositorio donde encontrarás páginas de enlaces que se adaptan a tus necesidades.
