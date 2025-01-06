@@ -1,0 +1,76 @@
+---
+import Gear from "@/assets/Gear.astro";
+import { Image } from "astro:assets";
+import CyberWave from "@/assets/cyber-wave.webp";
+---
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const gearLogo = document.getElementById("gear-logo");
+        const modal = document.getElementById("settings-modal");
+        const closeSettings = document.getElementById("close-settings");
+
+        if (gearLogo && modal && closeSettings) {
+            gearLogo.addEventListener("click", () => {
+                modal.removeAttribute("inert");
+                modal.classList.remove("opacity-0", "invisible");
+                modal.classList.add("opacity-100", "visible", "flex");
+            });
+
+            closeSettings.addEventListener("click", () => {
+                modal.classList.remove("opacity-100");
+                modal.classList.add("opacity-0");
+
+                setTimeout(() => {
+                    modal.classList.add("invisible");
+                    modal.classList.remove("flex");
+                    modal.setAttribute("inert", "");
+                }, 300);
+            });
+        }
+    });
+</script>
+
+<div>
+    <div id="gear-logo" class="cursor-pointer hover:scale-110">
+        <Gear />
+    </div>
+
+    <div
+        id="settings-modal"
+        class="fixed inset-0 z-50 flex items-center justify-center invisible transition-opacity duration-300 bg-black bg-opacity-75 opacity-0"
+        inert
+        role="dialog"
+    >
+        <div
+            class="flex flex-col p-6 text-white bg-[#0C1E24] rounded-lg shadow-lg w-80 sm:w-1/3"
+        >
+            <h2 aria-label="Settings Modal">Settings</h2>
+            <hr class="mt-2 mb-4 opacity-10" />
+            <h3 class="mb-2" aria-label="Themes Section">Themes</h3>
+            <div
+                class="flex flex-col sm:flex-row justify-between items-start sm:items-center bg-[#142226] p-2 rounded-lg"
+            >
+                <span class="pb-2 text-sm font-bold sm:pb-0">Current theme</span
+                >
+                <div class="flex items-center gap-2">
+                    <Image
+                        src={CyberWave}
+                        alt="Cyber Wave Theme"
+                        width={75}
+                        height={40}
+                        class="rounded"
+                        loading="eager"
+                    />
+                    <p class="text-sm">Cyber Wave</p>
+                </div>
+            </div>
+            <button
+                id="close-settings"
+                class="mt-4 py-2 w-full text-sm bg-gradient-to-r from-[#027972]/50 via-[#3C3E80]/50 to-[#7A028F]/50 rounded hover:-translate-y-0.5 active:translate-y-0 transition-transform duration-100"
+            >
+                Close
+            </button>
+        </div>
+    </div>
+</div>
