@@ -1,7 +1,6 @@
 ---
 import Gear from "@/assets/Gear.astro";
-import { Image } from "astro:assets";
-import CyberWave from "@/assets/cyber-wave.jpg";
+import CyberWave from "@/assets/cyber-wave.webp";
 ---
 
 <script>
@@ -54,13 +53,12 @@ import CyberWave from "@/assets/cyber-wave.jpg";
                 <span class="pb-2 text-sm font-bold sm:pb-0">Current theme</span
                 >
                 <div class="flex items-center gap-2">
-                    <Image
-                        src={CyberWave}
+                    <img
+                        src={CyberWave.src}
                         alt="Cyber Wave Theme"
                         width={75}
                         height={40}
                         class="rounded"
-                        loading="eager"
                     />
                     <p class="text-sm">Cyber Wave</p>
                 </div>
