@@ -6,19 +6,24 @@ import Warp from "@/assets/Warp.astro";
     document.addEventListener("DOMContentLoaded", () => {
         const warpLogo = document.getElementById("warp-logo");
         const modal = document.getElementById("credits-modal");
-        const closeModal = document.getElementById("close-modal");
+        const closeCredits = document.getElementById("close-credits");
 
-        if (warpLogo && modal && closeModal) {
+        if (warpLogo && modal && closeCredits) {
             warpLogo.addEventListener("click", () => {
-                modal.classList.remove("hidden");
-                modal.classList.add("flex");
-                modal.setAttribute("aria-hidden", "false");
+                modal.removeAttribute("inert");
+                modal.classList.remove("opacity-0", "invisible");
+                modal.classList.add("opacity-100", "visible", "flex");
             });
 
-            closeModal.addEventListener("click", () => {
-                modal.classList.add("hidden");
-                modal.classList.remove("flex");
-                modal.setAttribute("aria-hidden", "true");
+            closeCredits.addEventListener("click", () => {
+                modal.classList.remove("opacity-100");
+                modal.classList.add("opacity-0");
+
+                setTimeout(() => {
+                    modal.classList.add("invisible");
+                    modal.classList.remove("flex");
+                    modal.setAttribute("inert", "");
+                }, 300);
             });
         }
     });
@@ -31,20 +36,62 @@ import Warp from "@/assets/Warp.astro";
 
     <div
         id="credits-modal"
-        class="fixed inset-0 z-50 items-center justify-center hidden bg-black bg-opacity-75"
-        aria-hidden="true"
+        class="fixed inset-0 z-50 flex items-center justify-center invisible transition-opacity duration-300 bg-black bg-opacity-75 opacity-0"
+        inert
         role="dialog"
     >
         <div
-            class="flex flex-col items-center p-6 text-white bg-gray-800 rounded-lg shadow-lg w-80"
+            class="flex flex-col p-6 text-white bg-[#0C1E24] rounded-lg shadow-lg w-80"
         >
-            <h2>Made by MarcosKlender 🇪🇨</h2>
-            <p class="text-sm">Thanks for being here! (:</p>
+            <h2 aria-label="Credits Modal">Credits</h2>
+            <hr class="mt-2 mb-4 opacity-10" />
+            <p class="text-sm">
+                Made by
+                <a
+                    href="https://www.linkedin.com/in/marcosklender/?locale=en_US"
+                    target="_blank"
+                    aria-label="Klender Carrasco's LinkedIn"
+                    class="text-[#B4FA72] hover:underline"
+                >
+                    Klender Carrasco
+                </a>
+            </p>
+            <p class="text-sm">
+                Inspired by
+                <a
+                    href="https://www.warp.dev"
+                    target="_blank"
+                    aria-label="Warp Terminal's Page"
+                    class="text-[#B4FA72] hover:underline"
+                >
+                    Warp Terminal
+                </a>
+            </p>
+            <p class="text-sm">
+                Developed with
+                <a
+                    href="https://astro.build"
+                    target="_blank"
+                    aria-label="Astro's Page"
+                    class="text-[#B4FA72] hover:underline"
+                >
+                    Astro
+                </a>
+                and
+                <a
+                    href="https://tailwindcss.com"
+                    target="_blank"
+                    aria-label="Tailwind's Page"
+                    class="text-[#B4FA72] hover:underline"
+                >
+                    Tailwind
+                </a>
+            </p>
             <button
-                id="close-modal"
-                class="mt-4 py-2 w-full text-sm bg-gradient-to-r from-[#027972]/50 via-[#3C3E80]/50 to-[#7A028F]/50 rounded hover:scale-105"
+                id="close-credits"
+                class="mt-4 py-2 w-full text-sm bg-gradient-to-r from-[#027972]/50 via-[#3C3E80]/50 to-[#7A028F]/50 rounded hover:-translate-y-0.5 active:translate-y-0 transition-transform duration-100"
             >
-                You're welcome!
+                Close
             </button>
         </div>
     </div>
