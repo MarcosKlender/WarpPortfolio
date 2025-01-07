@@ -4,6 +4,8 @@
 
 ![Astro](https://astro.build/assets/press/astro-icon-light-gradient.svg)
 
+[![Available at](https://img.shields.io/badge/Available%20at-Astro%20Themes-purple?style=for-the-badge&link=https://astro.build/themes/details/astrolinkhub/)](https://astro.build/themes/details/warp-portfolio)
+
 </div>
 
 <h1 align="center">WarpPortfolio</h1>
@@ -41,6 +43,9 @@ Open source web portfolio, inspired by [Warp Terminal](https://www.warp.dev/). M
 
 
 ## About The Project
+
+> [!IMPORTANT]
+> I'm glad to announce that this project is available on [Astro Themes](https://astro.build/themes/details/warp-portfolio)! 🚀
 
 WarpPortfolio is a web portfolio inspired by Warp Terminal. Built with Astro and Tailwind CSS, this project aims to provide a sleek and modern portfolio template.
 
