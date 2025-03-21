@@ -22,4 +22,3 @@ Aplicación Laravel para gestionar el registro de miembros para las Elecciones d
 
 [**Larapark**](https://github.com/MarcosKlender/Larapark)\
 Gestiona tu estacionamiento de la manera más eficiente, totalmente gratis.
-

@@ -7,8 +7,10 @@ title: "~/home"
 
 Welcome to my Warp Portfolio! My name is **Klender Carrasco**.
 
-I'm a versatile software engineer with over 7 years of experience, specializing in mobile development, front-end and back-end web development, and database management. I am committed to delivering high-quality, tailored solutions and am driven by a positive attitude, strong work ethic, and professional integrity.
+I'm a Systems Engineer with a Master's Degree in Software Engineering, entrepreneur and tech lover. I work as an IT Security Analyst at the Consejo Nacional Electoral, a public institution in charge of organizing, directing, monitoring and guaranteeing the electoral processes in Ecuador.
 
-I hold a degree in Systems and Computer Engineering and am currently pursuing a Master’s Degree in Software Engineering and IT Systems (2025), further deepening my expertise and refining my skills to deliver cutting-edge, customized solutions.
+I have more than 8 years of experience in software development and I never spend a day where I don't stay up to date with the latest advances in the field. With more than 5 years as a Security Analyst, I can say that my main competencies are web development, project architecture, consulting and continuous staff training.
+
+I have always worked as a Full Stack developer and, although I also have experience developing iOS applications (4 apps developed), my goal is to specialize in the Frontend branch, where my priority has always been to offer the best experience to the final user without forgetting accessibility and attention to detail.
 
 If you would like to use or contribute to this portfolio, check out the [repository on Github](https://github.com/MarcosKlender/WarpPortfolio). *Don't forget to star it!* (:
