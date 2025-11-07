@@ -2,92 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Onest Variable";
+  src: url("/fonts/onest-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 body {
-    font-family: 'Onest Variable', sans-serif;
+  font-family: "Onest Variable", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 main {
-    @apply min-h-screen
+  @apply min-h-screen;
 }
 
 .cyber-wave-theme {
-    @apply bg-gradient-to-b from-[#002532] to-[#000101];
+  @apply bg-gradient-to-b from-[#002532] to-[#000101];
 }
 
 .warp-tab {
-    @apply w-40 py-2 text-sm text-center hover:bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
+  @apply w-40 py-2 text-sm text-center hover:bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
 }
 
 .active {
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(to right, #027972, #3C3E80, #7A028F);
-    border-image-slice: 1;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right, #027972, #3c3e80, #7a028f);
+  border-image-slice: 1;
 }
 
 .warp-username {
-    @apply text-[#B4FA72];
+  @apply text-[#B4FA72];
 }
 
 .warp-directory {
-    @apply text-[#FF8FFD];
+  @apply text-[#FF8FFD];
 }
 
 .selected-section {
-    @apply bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
-    border: 2px solid transparent;
-    border-image: linear-gradient(to right, #027972, #3C3E80, #7A028F);
-    border-image-slice: 1;
+  @apply bg-gradient-to-r from-[#027972]/30 via-[#3C3E80]/30 to-[#7A028F]/30;
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #027972, #3c3e80, #7a028f);
+  border-image-slice: 1;
 }
 
 .prompt-section {
-    @apply flex flex-col gap-1 p-4;
+  @apply flex flex-col gap-1 p-4;
 }
 
 .markdown {
-    h1 {
-        @apply pb-2 font-bold;
-    }
+  h1 {
+    @apply pb-2 font-bold;
+  }
 
-    p {
-        @apply py-2
-    }
+  p {
+    @apply py-2;
+  }
 
-    a {
-        @apply text-[#B4FA72] hover:underline;
-    }
+  a {
+    @apply text-[#B4FA72] hover:underline;
+  }
 }
 
 .animate-slide-in {
-    animation: slide-in 0.6s ease-out both;
+  animation: slide-in 0.6s ease-out both;
 }
 
 @keyframes slide-in {
-    0% {
-        transform: translateY(20px);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .animate-blink {
-    animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
 }
 
 @keyframes blink {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    50% {
-        opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }

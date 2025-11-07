@@ -1,5 +1,4 @@
 ---
-import "@fontsource-variable/onest";
 import "src/styles/global.css";
 
 import { getLangFromUrl } from "../i18n/utils";
@@ -14,6 +13,7 @@ const lang = getLangFromUrl(Astro.url);
 		<meta name="theme-color" content="#002532" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>Warp Portfolio</title>
+		<link rel="preload" as="font" type="font/woff2" href="/fonts/onest-variable.woff2" crossorigin="anonymous" />
 	</head>
 	<body class="cyber-wave-theme">
 		<slot />
