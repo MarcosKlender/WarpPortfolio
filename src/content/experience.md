@@ -5,11 +5,11 @@ title: "~/home/experience"
 
 # cat EXPERIENCE.md
 
-[**IT Security Analyst** at Consejo Nacional Electoral (2019 - Today)](https://cne.gob.ec/)\
-Experienced IT professional with a proven track record of managing technology infrastructure and supporting mission-critical operations. Skilled in providing technical guidance, training, and remote assistance to staff. Committed to ensuring the reliable functioning of technology systems and enabling efficient workflows.
+[**Senior Frontend Developer** at Consejo Nacional Electoral del Ecuador (CNE) | (Nov 2019 – Present)](https://www.cne.gob.ec/)\
+As the Lead Architect for critical electoral applications, I develop and maintain high-availability portals using React, TypeScript, and TDD. My work ensures 99.9% uptime for thousands of concurrent users and includes mentoring a cross-functional team of over 120 colleagues on new software and best practices.
 
-[**Full Stack Developer** at iLinser (2020 - 2024)](https://ilinser.com/)\
-Accomplished software engineer and entrepreneur with extensive experience in web development, operating systems administration, and consulting. Co-founded this micro-company providing technology solutions and successfully grew the business through innovative web development and user experience improvements.
+[**Co-Founder & Full Stack Developer** at iLinser | (Jan 2019 – Jun 2024)](https://www.ilinser.com/)\
+I co-founded a web development agency where I led the complete product lifecycle as the sole developer. I established our TDD workflows, built a reusable component library, and delivered e-commerce solutions that increased client sales by up to 90% through a focus on performance and UX.
 
-[**Full Stack Developer** at Chery Ecuador (2019)](https://www.chery.com.ec/)\
-Experienced software developer with a track record of delivering innovative solutions to improve business operations. Skilled in web application development, process automation, and data management. Committed to driving efficiency and enhancing the customer experience through the application of technology.
+[**Full Stack Developer** at Chery Ecuador | (2019)](https://www.chery.com.ec/)\
+In this role, I developed internal web applications and automated data management processes, enhancing business efficiency and customer data workflows.

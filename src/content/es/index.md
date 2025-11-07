@@ -5,12 +5,14 @@ title: "~/home"
 
 # cat SOBREMI.md
 
-¡Bienvenido(a) a mi Portafolio Warp! Mi nombre es **Klender Carrasco**.
+¡Bienvenido a mi Portfolio Warp! Mi nombre es **Klender Carrasco**.
 
-Soy Ingeniero de Sistemas con una Maestría en Ingeniería de Software, emprendedor y amante de la tecnología. Trabajo como Analista de Seguridad Informática en el Consejo Nacional Electoral, institución pública encargada de organizar, dirigir, vigilar y garantizar los procesos electorales en Ecuador.
+Soy Ingeniero de Sistemas, emprendedor y amante de la tecnología, recién graduado de la Maestría en Ingeniería de Software y Sistemas Informáticos.
 
-Tengo más de 8 años de experiencia en el desarrollo de software y nunca paso un día en el que no me mantenga al tanto de los últimos avances en la industria. Con más de 5 años como Analista de Seguridad, puedo decir que mis principales competencias son el desarrollo web, la arquitectura de proyectos, la consultoría y la capacitación continua del personal.
+Actualmente, trabajo como Senior Frontend Developer en el Consejo Nacional Electoral, una institución pública encargada de organizar los procesos electorales en Ecuador. Con más de 8 años de experiencia en desarrollo de software, me apasiona construir aplicaciones escalables y de alta calidad.
 
-Siempre he trabajado como desarrollador Full Stack y, aunque también tengo experiencia desarrollando aplicaciones iOS (4 apps desarrolladas), mi objetivo es especializarme en la rama del Frontend, donde mi prioridad siempre ha sido ofrecer la mejor experiencia al usuario final sin descuidar la accesibilidad y la atención al detalle.
+Empecé mi carrera como desarrollador Full Stack (siendo co-fundador de mi propia agencia, iLinser), lo que me dio una perspectiva completa del ciclo de vida del producto. Hoy, mi especialidad es el Frontend, donde me enfoco en React, TypeScript y TDD.
 
-Si deseas usar o contribuir con este portafolio, visita el [repositorio en GitHub](https://github.com/MarcosKlender/WarpPortfolio). *¡No olvides darle una estrella!* (:
+Mi prioridad siempre es ofrecer la mejor experiencia al usuario final, con un enfoque claro en la accesibilidad, el rendimiento y la atención al detalle.
+
+Si te gustaría usar o contribuir a este portafolio, revisa el [repositorio en GitHub](https://github.com/MarcosKlender/WarpPortfolio). _¡No olvides darle una estrella!_ (:

@@ -7,10 +7,12 @@ title: "~/home"
 
 Welcome to my Warp Portfolio! My name is **Klender Carrasco**.
 
-I'm a Systems Engineer with a Master's Degree in Software Engineering, entrepreneur and tech lover. I work as an IT Security Analyst at the Consejo Nacional Electoral, a public institution in charge of organizing, directing, monitoring and guaranteeing the electoral processes in Ecuador.
+I'm a Systems Engineer, entrepreneur, and tech lover, recently graduated with a Master's Degree in Software Engineering and IT Systems.
 
-I have more than 8 years of experience in software development and I never spend a day where I don't stay up to date with the latest advances in the field. With more than 5 years as a Security Analyst, I can say that my main competencies are web development, project architecture, consulting and continuous staff training.
+I currently work as a Senior Frontend Developer at the Consejo Nacional Electoral, a public institution in charge of organizing electoral processes in Ecuador. With over 8 years of experience in software development, I am passionate about building high-quality, scalable applications.
 
-I have always worked as a Full Stack developer and, although I also have experience developing iOS applications (4 apps developed), my goal is to specialize in the Frontend branch, where my priority has always been to offer the best experience to the final user without forgetting accessibility and attention to detail.
+My career began as a Full Stack Developer (co-founding my own agency, iLinser), which gave me a complete perspective on the entire product lifecycle. Today, my specialty is the Frontend, where I focus on React, TypeScript, and TDD.
 
-If you would like to use or contribute to this portfolio, check out the [repository on Github](https://github.com/MarcosKlender/WarpPortfolio). *Don't forget to star it!* (:
+My priority is always to deliver the best possible user experience, with a sharp focus on accessibility, performance, and pixel-perfect attention to detail.
+
+If you would like to use or contribute to this portfolio, check out the [repository on Github](https://github.com/MarcosKlender/WarpPortfolio). _Don't forget to star it!_ (:

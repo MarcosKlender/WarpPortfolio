@@ -13,9 +13,6 @@ Github:
 LinkedIn:  
 [https://linkedin.com/in/marcosklender](https://linkedin.com/in/marcosklender)
 
-Instagram:  
-[https://instagram.com/marcosklender](https://instagram.com/marcosklender)
-
 WhatsApp:  
 [https://wa.me/5930980199488](https://wa.me/5930980199488)
 
